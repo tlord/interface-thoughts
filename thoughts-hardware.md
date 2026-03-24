@@ -11,5 +11,9 @@
 
 <center><img src="Images/2026-03-23-wheel.png" width="80%" alt="Tactile Feedback" title="The steering wheel as a high-fidelity interface."></center>
 
+<hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+<p align="right"><a href="index.html" style="text-decoration: none; color: #159957; font-size: 0.9em;">← Return to main page</a></p>
+
+
 </div>
 
