@@ -1,12 +1,8 @@
-! # Gallery of Insights
 ## *Making things better; making better things.*
 
-I am a compulsive taker—and sender—of notes about interfaces. You've stumbled onto a few of them. 
+I am a compulsive taker—and sender—of notes about interfaces. You've stumbled onto a few of them. Some of them go back decades. Even when the particulars change, the lessons often still apply.
 
-"Interface" here means any way you interact with systems or devices, from a perfectly balanced steering wheel to the invisible logic of a store checkout line; from a crisply written manual to a voice-driven menu where no option quite fits.
-
-
-Some of these thoughts have been drawn from more than a decade. Even when the particulars change, though, the lessons often still apply.
+Note: "Interface" here means any way you interact with systems or devices, from a steering wheel to a store checkout line; from a crisply written manual to a voice-driven menu where no option quite fits.
 
 ---
 
