@@ -11,13 +11,13 @@ Note: "Interface" here means any way you interact with systems or devices, from 
 
 Explore by category:
 
-* [**All things macOS**](./macos.md) – "It just works" -- until it doesn't.
-* [**Free & Open Source**](./free-software.md) – Usability notes on community-driven software.
-* [**Hardware & Physical UX**](./hardware.md) – Atoms matter, not just bits.
-* [**Search & Discovery**](./search.md) – How we find or overlook information.
-* [**Mobile Experience**](./mobile.md) – Not everything that comes in small packages is good. 
-* [**User Kindness**](./kindness.md) – Avoiding hostility is a good start.
-* [**Miscellany**](./miscellany.md) - Overflow parking for ideas.  
+* [**All things macOS**](./thoughts-macos.md) – "It just works" -- until it doesn't.
+* [**Free & Open Source**](./thoughts-free-software.md) – Usability notes on community-driven software.
+* [**Hardware & Physical UX**](./thoughts-hardware.md) – Atoms matter, not just bits.
+* [**Search & Discovery**](./thoughts-search.md) – How we find or overlook information.
+* [**Mobile Experience**](./thoughts-mobile.md) – Not everything that comes in small packages is good. 
+* [**User Kindness**](./thoughts-kindness.md) – Avoiding hostility is a good start.
+* [**Miscellany**](./thoughts-miscellany.md) - Overflow parking for ideas.  
 
 ---
 
