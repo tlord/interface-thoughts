@@ -1,11 +1,8 @@
-## *Making things better; making better things.*
-
-
-You've stumbled onto a few of my notes about interfaces. Some of them go back decades, and some spring from my Twitter feed. Even when the particulars change, the lessons often still apply.
+You've stumbled onto a few of my notes about interfaces. Some of them go back decades, and some spring from my Twitter/X feed. Even when the particulars change, the lessons often still apply.
 
 Note: "Interface" here means any way you interact with systems or devices, from a steering wheel to a store checkout line; from a crisply written manual to a voice-driven menu where no option quite fits.
 
-<center><img src="Images/header-image-das-keyboard.jpg" width="40%" alt="Das Keyboard: black keys, no labels." title="Don't do this."></center>
+<center><img src="Images/header-image-das-keyboard.jpg" width="30%" alt="Das Keyboard: black keys, no labels." title="Don't do this."></center>
 
 ---
 
