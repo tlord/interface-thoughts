@@ -1,6 +1,7 @@
 ## *Making things better; making better things.*
 
-I am a compulsive taker—and sender—of notes about interfaces. You've stumbled onto a few of them. Some of them go back decades. Even when the particulars change, the lessons often still apply.
+
+I am a compulsive taker—and sender—of notes about interfaces. You've stumbled onto a few of them. Some of them go back decades, and some spring from my Twitter feed. Even when the particulars change, the lessons often still apply.
 
 Note: "Interface" here means any way you interact with systems or devices, from a steering wheel to a store checkout line; from a crisply written manual to a voice-driven menu where no option quite fits.
 
@@ -19,3 +20,5 @@ Explore by category:
 * [**Miscellany**](./miscellany.md) - Overflow parking for ideas.  
 
 ---
+
+![Close up of a Das Keyboard-brand keyboard, with black, unlabeled keys](Images/header-image-das-keyboard.jpg)
