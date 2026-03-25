@@ -34,7 +34,7 @@ Is it similar to the entry above? I hope so.
 
 **If it's not, that's a problem.**
 
-<a href="index.html" class="back-link">← Return to main page</a>
+<a href="README.html" class="back-link">← Return to main page</a>
 
 </div>
 
