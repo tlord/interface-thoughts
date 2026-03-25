@@ -1,13 +1,13 @@
 <div style="border: 2px solid #444; padding: 20px; border-radius: 12px; margin-bottom: 25px; background-color: #fafafa; box-shadow: 2px 2px 5px rgba(0,0,0,0.05);">
 
-### [Title of the Observation]
-**The Principle:** [Normative statement/Plea]
+### Bookmarks: Stop forcing the long scroll-down of doom
 
-**The Friction:** [Description of the problem]
 
-**The Resolution:** [Your proposed solution]
+Bookmarks added to toolbar folder in web browsers should default 
+to top rather than bottom of the list. The user can always rearrange the order later, but a recently bookmarked site is also one the user is likely to return to soon -- so why make them dig deeper than the top of the list? 
 
-![Description](./images/topic-YYYY-MM-DD-short-name.jpg)
+Same applies when functionally similar breadcrumbs appear in other kinds of apps, too -- not just browsers. 
+
 
 [Original Observation](URL-HERE)
 
