@@ -1,5 +1,31 @@
+---
+layout: default
+title: Hardware Observations
+---
+
 <style>
   .btn { display: none !important; }
+  
+  .thought-box {
+    border: 2px solid #444; 
+    padding: 20px; 
+    border-radius: 12px; 
+    margin-bottom: 25px; 
+    background-color: #fafafa; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  }
+
+  .back-link {
+    text-align: left;
+    font-size: 0.9em;
+    margin-top: 20px;
+  }
+
+  .back-link a {
+    text-decoration: none;
+    color: #159957;
+    font-weight: bold;
+  }
 </style>
 
 
