@@ -1,4 +1,8 @@
-<div style="border: 2px solid #444; padding: 20px; border-radius: 12px; margin-bottom: 25px; background-color: #fafafa; box-shadow: 2px 2px 5px rgba(0,0,0,0.05);">
+<style>
+  .btn { display: none !important; }
+</style>
+
+<div style="border: 2px solid #444; padding: 20px; border-radius: 12px; margin-bottom: 25px; background-color: #fafafa; box-shadow: 2px 2px 5px rgba(0,0,0,0.05);" markdown="1">
 
 ### Brightness control as a one-way transform
 
@@ -12,9 +16,8 @@ Employ the phone's physical buttons, or add a button / toggle for this purpose. 
 
 </div>
 
-<center>
 ### Keep the swiping keyboard small
-</center>
+
 
 (<a href="https://x.com/timothylord/status/623917393861959680">Related tweet of 2015-06-22</a>)
 
