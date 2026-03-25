@@ -1,5 +1,3 @@
-<-- I hope this is a comment. Let's check how it looks -->
-
 ---
 layout: default
 title: Hardware Observations
@@ -46,7 +44,7 @@ title: Hardware Observations
 <hr style="border: 0; border-top: 1px solid #eee;">
 
 <div class="back-link">
-  <a href="index.html">← Return to the Main Page</a>
+  <a href="README.html">← Return to the Main Page</a>
 </div>
 
 </div>
