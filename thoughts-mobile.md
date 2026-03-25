@@ -14,6 +14,10 @@ There are times a fully-blank screen is good -- it saves battery, it's unobtrusi
 
 Employ the phone's physical buttons, or add a button / toggle for this purpose. Or use a squeeze sensor to smoothly, temporarily raise the screen brightness. On Pixel phones (Pixel 6 and newer), Power + Volume Up by default activates the Power controls menu; if that would also force increased brightness and also give the user access to the brightness slider, the problem is solved. Those Power controls are pretty useless if you can't see the screen.
 
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+<p align="right"><a href="index.html" style="text-decoration: none; color: #159957; font-size: 0.9em;">← Return to main page</a></p>
+
 </div>
 
 ### Keep the swiping keyboard small
