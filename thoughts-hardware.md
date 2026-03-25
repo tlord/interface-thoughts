@@ -1,4 +1,8 @@
 
+<style>
+  .btn { display: none !important; }
+</style>
+
 <div style="border: 2px solid #444; padding: 20px; border-radius: 12px; margin-bottom: 25px; background-color: #fafafa; box-shadow: 2px 2px 5px rgba(0,0,0,0.05);" markdown="1">
 
 ### Get the weight right -- and lighter isn't always better
