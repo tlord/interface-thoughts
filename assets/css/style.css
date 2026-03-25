@@ -1,0 +1,26 @@
+/* Style for your micro-rant cards */
+.rant-card {
+  border: 2px solid #444;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Hide the button class as requested */
+.rant-card .btn {
+  display: none !important;
+}
+
+/* Optional: Style the "Return to main page" link globally */
+.rant-card .back-link {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: #159957;
+  font-size: 0.9em;
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}

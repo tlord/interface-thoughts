@@ -1,4 +1,3 @@
-
 <style>
   .btn { display: none !important; }
 </style>
@@ -24,7 +23,23 @@ A steering wheel should resist -- just enough to remind you that you are moving 
 </div>
 
 
-<div>
+
+<div class="rant-card" markdown="1">
+
+### Test subject X
+
+**I want to see how this displays.**
+
+Is it similar to the entry above? I hope so. 
+
+**If it's not, that's a problem.**
+
+<a href="index.html" class="back-link">← Return to main page</a>
+
+</div>
+
+
+
 ### Test subject X
 
 **I want to see how this displays.**
