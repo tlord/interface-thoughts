@@ -1,3 +1,6 @@
 theme: jekyll-theme-cayman
 title: Interface Thoughts
 description: Usability notes on UI/UX, hardware, and more.
+
+plugins:
+  - jekyll-remote-theme
