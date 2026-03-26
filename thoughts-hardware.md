@@ -56,31 +56,10 @@ When it comes to hardware, don't assume heavy is bad. Sometimes "heavy" isn't qu
 
 There's a reason that some people -- a dedicated cult, but a persistent one -- like keyboards that weigh more than a large cup of coffee. Or steering wheels that move smoothly, but take a bit of effort to turn. Twist the weighted knob on a classic stereo: it's the opposite of twitchy. There's no <i>strain</i> to use it, and there's also no way to accidentally swing it from zero to eleven -- it makes setting the right level deliberate, exact, and satisfying.  
 
-
-<img src="Images/hard-2026-03-23-wheel.png" 
-     style="width: 100%; max-width: 200px; height: auto; border-radius: 8px; float: left; margin-right: 20px; margin-bottom: 10px;" 
-     alt="Luxurious steering wheel" 
-     title="Solid makes for smooth.">
-
-
-
-<img src="Images/hard-2026-03-23-wheel.png" 
-     style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; float: left; margin-right: 20px; margin-bottom: 10px;" 
-     alt="Luxurious steering wheel" 
-     title="Solid makes for smooth.">
-
-
-
-
 <img src="Images/hard-2026-03-23-wheel.png" 
      style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; float: left; margin-right: 20px; margin-bottom: 10px;" 
      alt="Luxurious steering wheel" 
      title="Solid makes for smooth.">
-
-
-
-
-<img src="Images/hard-2026-03-23-wheel.png" style="max-width: 100%; height: auto; border-radius: 8px;" alt="Luxurious steering wheel" title="Solid makes for smooth.">
 
 
 <hr style="border: 0; border-top: 1px solid #eee;">
