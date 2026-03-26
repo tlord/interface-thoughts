@@ -41,9 +41,9 @@ description: " "
 
 ### Get the weight right — and lighter isn't always better
 
-When it comes to hardware, don't assume heavy is bad. Sometimes "heavy" isn't quite the right word, really -- think solid, weighty, steady reassuring. 
+When it comes to hardware, don't assume heavy is bad. Sometimes "heavy" isn't quite the right word, really -- think solid, weighty, steady, reassuring.  
 
-There's a reason that some people -- a dedicated cult, but a persistent one -- like keyboards that weigh more than a large cup of coffee. Or steering wheels that move smoothly, but take a bit of effort to turn. Turn the weighted knob on a classic stereo: it's the opposite of twitchy. There's no <i>strain</> to use it, and there's also no way to accidentally swing it from zero to eleven -- it makes setting the right level deliberate and exact.  
+There's a reason that some people -- a dedicated cult, but a persistent one -- like keyboards that weigh more than a large cup of coffee. Or steering wheels that move smoothly, but take a bit of effort to turn. Turn the weighted knob on a classic stereo: it's the opposite of twitchy. There's no <i>strain</i> to use it, and there's also no way to accidentally swing it from zero to eleven -- it makes setting the right level deliberate and exact.  
 
 <center><img src="Images/hard-2026-03-23-wheel.png" width="30%" alt="Luxurious steering wheel" title="Solid makes for smooth."></center>
 
@@ -54,6 +54,27 @@ There's a reason that some people -- a dedicated cult, but a persistent one -- l
 </div>
 
 </div>
+
+
+<div class="thought-box" markdown="1">
+
+<img src="Images/hard-2026-03-23-wheel.png" width="30%" alt="Luxurious steering wheel" title="Solid makes for smooth.">
+
+### Get the weight right — and lighter isn't always better
+
+When it comes to hardware, don't assume heavy is bad. Sometimes "heavy" isn't quite the right word, really -- think solid, weighty, steady, reassuring.  
+
+There's a reason that some people -- a dedicated cult, but a persistent one -- like keyboards that weigh more than a large cup of coffee. Or steering wheels that move smoothly, but take a bit of effort to turn. Turn the weighted knob on a classic stereo: it's the opposite of twitchy. There's no <i>strain</i> to use it, and there's also no way to accidentally swing it from zero to eleven -- it makes setting the right level deliberate and exact.  
+
+
+<hr style="border: 0; border-top: 1px solid #eee;">
+
+<div class="back-link">
+  <a href="index.html">← Return to main page</a>
+</div>
+
+</div>
+
 
 
 
