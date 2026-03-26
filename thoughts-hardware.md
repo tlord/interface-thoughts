@@ -53,10 +53,11 @@ title: Hardware Observations
 
 ### Out with the new, in with the old (sometimes!)
 
-Web Designers: When you get your new development machine and larger, denser mmonitor, please keep your old hardware, running just like it is today. Same processor, same amount of RAM, same graphics card, same monitor. 
+Web Designers: When you get your new development machine and larger, denser monitor, please keep your old hardware. By that I mean keep it running just like it is today. Same processor, same amount of RAM, same graphics card, same monitor. And this may seem painful, but it's the most important: The same browser.  
 
-If you're like a lot of people in tech, the machine you consider obsolete is still a lot more powerful than many of the ones your work will be viewed on. 
-Trot it out occasionally to test your designs, unless you can guarantee it's unnecessary. 
+If you're like a lot of people in tech, the machine you consider obsolete is still a lot more powerful than many of the ones your work will be viewed on. And people will have browsers that weren't updated yesterday, or last week, or last year. 
+ 
+Trot it out occasionally to test your designs. Do animations work as you'd expect? Does the browser that you used three years ago still render things correctly? If your newer site breaks on the old machine, does it do so politely, or messily?   
 
 <a href="index.html" class="back-link">← Return to main page</a>
 
