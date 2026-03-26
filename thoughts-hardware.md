@@ -62,6 +62,18 @@ When it comes to hardware, don't assume heavy is bad. Sometimes "heavy" isn't qu
 
 There's a reason that some people -- a dedicated cult, but a persistent one -- like keyboards that weigh more than a large cup of coffee. Or steering wheels that move smoothly, but take a bit of effort to turn. Twist the weighted knob on a classic stereo: it's the opposite of twitchy. There's no <i>strain</i> to use it, and there's also no way to accidentally swing it from zero to eleven -- it makes setting the right level deliberate, exact, and satisfying.  
 
+
+Consider some points of contact users have with your hardware where a feeling of certainty and authority matter: 
+
+- Power controls (on / off / standby / sleep)
+- Volume or similar range-based controls
+- Subsystems (a stereo equalizer, a car's AC controls ...)
+- Locks and latches
+
+Do they click (or "thonk") into place with confidence? Or ease into motion without jerking? Do users actually get a kick out of using them?
+
+Or do they feel hesitant, and invite multiple activations "just to be sure"? If they do, you're doing it wrong.
+
 <hr style="border: 0; border-top: 1px solid #eee;">
 
 <div class="back-link">
