@@ -12,15 +12,18 @@ description: " "
   .btn { display: none !important; }
 
 .thought-box {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #606c71;
     border: 2px solid #444; 
     padding: 20px; 
     border-radius: 12px; 
     margin-bottom: 25px; 
     background-color: #fafafa; 
     box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    /* The Brute Force Font Stack */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
   }
+
 
   .back-link {
     text-align: left;
