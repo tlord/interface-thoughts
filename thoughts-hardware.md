@@ -3,6 +3,7 @@ layout: default
 title: Notes on Hardware
 ---
 
+
 <style>
   .btn { display: none !important; }
   
@@ -27,6 +28,7 @@ title: Notes on Hardware
     font-weight: bold;
   }
 </style>
+
 
 
 <div class="thought-box" markdown="1">

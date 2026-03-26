@@ -3,6 +3,7 @@ layout: default
 title: Interface Thoughts
 ---
 
+
 <style>
   .btn { display: none !important; }
   
@@ -29,6 +30,7 @@ title: Interface Thoughts
 </style>
 
 
+s
 You've stumbled onto a few of my notes about interfaces. Some of them go back decades, and some spring from my recent Twitter/X feed. Even when the particulars change, the lessons often still apply. Note: "Interface" here means any way you interact with systems or devices, whether that's a steering wheel, a written manual, or a voice-driven menu
 
 <center><img src="Images/header-image-das-keyboard.jpg" width="30%" alt="Das Keyboard: black keys, no labels." title="Black keys, no labels. Don't do this."></center>
