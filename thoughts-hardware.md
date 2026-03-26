@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Notes on Hardware
+description: " "
+---
+
+
 ---
 
 
@@ -63,6 +67,8 @@ If you're like a lot of people in tech, the machine you consider obsolete is sti
  
 Trot it out occasionally to test your designs. Do animations work as you'd expect? Does the browser that you used three years ago still render things correctly? If your newer site breaks on the old machine, does it do so politely, or messily?   
 
-<a href="index.html" class="back-link">← Return to main page</a>
+<div class="back-link">
+  <a href="index.html">← Return to main page</a>
+</div>
 
 </div>
