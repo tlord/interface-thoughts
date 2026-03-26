@@ -63,6 +63,23 @@ There's a reason that some people -- a dedicated cult, but a persistent one -- l
      title="Solid makes for smooth.">
 
 
+
+<img src="Images/hard-2026-03-23-wheel.png" 
+     style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; float: left; margin-right: 20px; margin-bottom: 10px;" 
+     alt="Luxurious steering wheel" 
+     title="Solid makes for smooth.">
+
+
+
+
+<img src="Images/hard-2026-03-23-wheel.png" 
+     style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; float: left; margin-right: 20px; margin-bottom: 10px;" 
+     alt="Luxurious steering wheel" 
+     title="Solid makes for smooth.">
+
+
+
+
 <img src="Images/hard-2026-03-23-wheel.png" style="max-width: 100%; height: auto; border-radius: 8px;" alt="Luxurious steering wheel" title="Solid makes for smooth.">
 
 
