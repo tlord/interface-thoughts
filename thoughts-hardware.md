@@ -63,7 +63,7 @@ There's a reason that some people -- a dedicated cult, but a persistent one -- l
 
 ### Out with the new, in with the old (sometimes!)
 
-Web Designers: When you get your new development machine and larger, denser monitor, please keep your old hardware. By that I mean keep it <i>running<i> -- just like it is today. Same processor, same amount of RAM, same graphics card, same monitor. And this may seem painful, but it's the most important: The same browser.  
+Web Designers: When you get your new development machine and larger, denser monitor, please keep your old hardware. By that I mean keep it in <i>running condition</i> -- just like it is today. Same processor, same amount of RAM, same graphics card, same monitor. And this may seem painful, but it's the most important: The same browser.  
 
 If you're like a lot of people in tech, the machine you consider obsolete is still a lot more powerful than many of the ones your work will be viewed on. And it will be next year, too, and the year after that. People -- maybe even your parents -- will have browsers that weren't updated yesterday, or last week, or last year. 
  
