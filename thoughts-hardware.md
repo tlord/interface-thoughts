@@ -41,13 +41,11 @@ description: " "
 
 ### Get the weight right — and lighter isn't always better
 
-**The Principle:** Control surfaces should provide "Weight" proportional to the consequence of the action.
+When it comes to hardware, don't assume heavy is bad. Sometimes "heavy" isn't quite the right word, really -- think solid, weighty, steady reassuring. 
 
-**The Friction:** Modern "drive-by-wire" systems and capacitive touch buttons...
+There's a reason that some people -- a dedicated cult, but a persistent one -- like keyboards that weigh more than a large cup of coffee. Or steering wheels that move smoothly, but take a bit of effort to turn. Turn the weighted knob on a classic stereo: it's the opposite of twitchy. There's no <i>strain</> to use it, and there's also no way to accidentally swing it from zero to eleven -- it makes setting the right level deliberate and exact.  
 
-**The Resolution:** Return to physical, weighted resistance...
-
-<center><img src="Images/2026-03-23-wheel.png" width="80%" alt="Tactile Feedback" title="The steering wheel as a high-fidelity interface."></center>
+<center><img src="Images/hard-2026-03-23-wheel.png" width="30%" alt="Luxurious steering wheel" title="Solid makes for smooth."></center>
 
 <hr style="border: 0; border-top: 1px solid #eee;">
 
@@ -63,11 +61,13 @@ description: " "
 
 ### Out with the new, in with the old (sometimes!)
 
-Web Designers: When you get your new development machine and larger, denser monitor, please keep your old hardware. By that I mean keep it running just like it is today. Same processor, same amount of RAM, same graphics card, same monitor. And this may seem painful, but it's the most important: The same browser.  
+Web Designers: When you get your new development machine and larger, denser monitor, please keep your old hardware. By that I mean keep it <i>running<i> -- just like it is today. Same processor, same amount of RAM, same graphics card, same monitor. And this may seem painful, but it's the most important: The same browser.  
 
-If you're like a lot of people in tech, the machine you consider obsolete is still a lot more powerful than many of the ones your work will be viewed on. And people will have browsers that weren't updated yesterday, or last week, or last year. 
+If you're like a lot of people in tech, the machine you consider obsolete is still a lot more powerful than many of the ones your work will be viewed on. And it will be next year, too, and the year after that. People -- maybe even your parents -- will have browsers that weren't updated yesterday, or last week, or last year. 
  
-Trot it out occasionally to test your designs. Do animations work as you'd expect? Does the browser that you used three years ago still render things correctly? If your newer site breaks on the old machine, does it do so politely, or messily?   
+Trot that old system out occasionally to test your designs. Do animations work as you'd expect? Does the browser that you used three years ago still render things correctly? If your newer site breaks on the old machine, does it do so politely, or messily?
+
+Even if you know your target audience won't be on machines like the ones you should keep stashed in your closet, designing conservatively will help your new stuff fly on newer hardware.
 
 <div class="back-link">
   <a href="index.html">← Return to main page</a>
