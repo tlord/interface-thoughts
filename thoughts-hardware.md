@@ -10,8 +10,10 @@ description: " "
 
 <style>
   .btn { display: none !important; }
-  
-  .thought-box {
+
+.thought-box {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #606c71;
     border: 2px solid #444; 
     padding: 20px; 
     border-radius: 12px; 
