@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hardware Observations
+title: Interface Thoughts
 ---
 
 <style>
