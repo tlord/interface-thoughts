@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hardware Observations
+title: Notes on Hardware
 ---
 
 <style>
@@ -44,10 +44,12 @@ title: Hardware Observations
 <hr style="border: 0; border-top: 1px solid #eee;">
 
 <div class="back-link">
-  <a href="index.html">← Return to the Main Page</a>
+  <a href="index.html">← Return to main page</a>
 </div>
 
 </div>
+
+
 
 <div class="thought-box" markdown="1">
 
