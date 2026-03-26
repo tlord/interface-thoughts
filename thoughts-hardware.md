@@ -61,19 +61,6 @@ There's a reason that some people -- a dedicated cult, but a persistent one -- l
 
 <div class="thought-box" markdown="1">
 
-<hr style="border: 0; border-top: 1px solid #eee;">
-
-<div class="back-link">
-  <a href="index.html">← Return to main page</a>
-</div>
-
-</div>
-
-
-
-
-<div class="thought-box" markdown="1">
-
 ### Out with the new, in with the old (sometimes!)
 
 Web Designers: When you get your new development machine and larger, denser monitor, please keep your old hardware. By that I mean keep it <i>running<i> -- just like it is today. Same processor, same amount of RAM, same graphics card, same monitor. And this may seem painful, but it's the most important: The same browser.  
@@ -83,6 +70,9 @@ If you're like a lot of people in tech, the machine you consider obsolete is sti
 Trot that old system out occasionally to test your designs. Do animations work as you'd expect? Does the browser that you used three years ago still render things correctly? If your newer site breaks on the old machine, does it do so politely, or messily?
 
 Even if you know your target audience won't be on machines like the ones you should keep stashed in your closet, designing conservatively will help your new stuff fly on newer hardware.
+
+<img src="Images/appl-ibook-2026-03-26.jpg" width="20%" alt="A classic Apple iBook, closed" title="Empathy generator">
+
 
 <div class="back-link">
   <a href="index.html">← Return to main page</a>

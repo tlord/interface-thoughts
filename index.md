@@ -38,13 +38,13 @@ You've stumbled onto a few of my notes about interfaces. Some of them go back de
 
 Explore by category:
 
-* [**All things macOS**](./thoughts-macos.md) – "It just works" -- until it doesn't.
-* [**Free & Open Source**](./thoughts-opensource.md) – Usability notes on community-driven software.
-* [**Hardware & Physical UX**](./thoughts-hardware.md) – Atoms matter, not just bits.
-* [**Search & Discovery**](./thoughts-search.md) – How we find or overlook information.
-* [**Mobile Experience**](./thoughts-mobile.md) – Not everything that comes in small packages is good. 
-* [**User Kindness**](./thoughts-kindness.md) – Avoiding hostility is a good start.
-* [**Miscellany**](./thoughts-misc.md) - Overflow parking lot for ideas.  
+* [**All things macOS**](./thoughts-macos.html) – "Just works" is a nice ideal.
+* [**Free & Open Source**](./thoughts-opensource.html) – Usability notes on community-driven software.
+* [**Hardware & Physical UX**](./thoughts-hardware.html) – Atoms matter, not just bits.
+* [**Search & Discovery**](./thoughts-search.html) – How we find or overlook information.
+* [**Mobile Experience**](./thoughts-mobile.html) – Not everything that comes in small packages is good. 
+* [**User Kindness**](./thoughts-kindness.html) – Avoiding hostility is a good start.
+* [**Miscellany**](./thoughts-misc.html) - Overflow parking lot for ideas.  
 
 ---
 
