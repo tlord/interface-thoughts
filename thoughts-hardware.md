@@ -74,7 +74,7 @@ body {
      alt="Luxurious steering wheel" 
      title="Solid makes for smooth.">
 
-When it comes to hardware, don't assume heavy is bad. Sometimes "heavy" isn't quite the right word, really -- think solid, weighty, steady, reassuring.  
+When it comes to hardware, don't assume heavy -- physically heavy, that is -- is bad. Sometimes "heavy" isn't even quite the right word: think whether it's really about being solid, weighty, steady, confident, and reassuring.  
 
 There's a reason that some people -- a dedicated cult, but a persistent one -- like keyboards that weigh more than a large cup of coffee. Or steering wheels that move smoothly, but take a bit of effort to turn. Twist the weighted knob on a classic stereo: it's the opposite of twitchy. There's no <i>strain</i> to use it, and there's also no way to accidentally swing it from zero to eleven -- it makes setting the right level deliberate, exact, and satisfying.  
 
@@ -116,9 +116,6 @@ If you're like a lot of people in tech, the machine you consider obsolete is sti
 Trot that old system out occasionally to test your designs. Do animations work as you'd expect? Does the browser that you used three years ago still render things correctly? If your newer site breaks on the old machine, does it do so politely, or messily?
 
 Even if you know your target audience won't be on machines like the ones you should keep stashed in your closet, designing conservatively will help your new stuff fly on newer hardware.
-
-<img src="Images/appl-ibook-2026-03-26.jpg" width="20%" alt="A classic Apple iBook, closed" title="Empathy generator">
-
 
 <div class="back-link">
   <a href="index.html">← Return to main page</a>
