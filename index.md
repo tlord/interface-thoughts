@@ -59,7 +59,7 @@ body {
 </style>
 
 
-You've stumbled onto a few of my notes about interfaces. Some of them go back decades, and some spring from my recent Twitter/X feed. Even when the particulars change, the lessons often still apply. Note: "Interface" here means any way you interact with systems or devices, whether that's a steering wheel, a written manual, or a voice-driven menu.
+You've stumbled onto a few of my notes about interfaces and usability. Some of these thoughts go back decades, and some spring from recent entries to my Twitter/X feed. Even when the particulars change, the lessons often still apply. Note: "Interface" here means any way you interact with systems or devices, whether that's a steering wheel, a written manual, or a voice-driven menu.
 
 
 <center>
@@ -74,12 +74,12 @@ You've stumbled onto a few of my notes about interfaces. Some of them go back de
 
 Explore by category:
 
-* [**All things macOS**](./thoughts-macos.html) – "Just works" is a nice ideal.
-* [**Free & Open Source**](./thoughts-opensource.html) – Usability notes on community-driven software.
+* [**User Kindness**](./thoughts-kindness.html) – Avoiding hostility is a good start.
 * [**Hardware & Physical UX**](./thoughts-hardware.html) – Atoms matter, not just bits.
+* [**Free & Open Source**](./thoughts-opensource.html) – Notes on community-driven software.
+* [**All things macOS**](./thoughts-macos.html) – "Just works" is a nice ideal.
 * [**Search & Discovery**](./thoughts-search.html) – How we find or overlook information.
 * [**Mobile Experience**](./thoughts-mobile.html) – Not everything that comes in small packages is good. 
-* [**User Kindness**](./thoughts-kindness.html) – Avoiding hostility is a good start.
 * [**Miscellany**](./thoughts-misc.html) - Overflow parking lot for ideas.  
 
 ---
