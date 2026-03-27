@@ -54,7 +54,7 @@ h1, h2, h3, h4 {
 
 
 <img src="Images/hard-2026-03-23-wheel.png" 
-     style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; float: left; margin-right: 20px; margin-bottom: 10px;" 
+     style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; float: left; margin-right: 40px; margin-bottom: 20px;" 
      alt="Luxurious steering wheel" 
      title="Solid makes for smooth.">
 
