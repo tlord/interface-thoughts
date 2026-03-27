@@ -64,7 +64,7 @@ body {
 
 
 
-<div class="thought-box" markdown="1">
+<div class="thought-box" id="get-weight-right-0001" markdown="1">
 
 ### Get the weight right — and lighter isn't always better
 
@@ -99,7 +99,7 @@ Or do they feel hesitant, and invite multiple activations "just to be sure"? If 
 </div>
 
 
-<div class="thought-box" markdown="1">
+<div class="thought-box" id="old-hw-empathy-0001" markdown="1">
 
 ### Out with the new, in with the old (sometimes!)
 
