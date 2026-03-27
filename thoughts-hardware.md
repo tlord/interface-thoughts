@@ -32,6 +32,7 @@ body {
     background-color: #fff;
   }
 
+
 .thought-box {
     border: 2px solid #444; 
     padding: 20px; 
@@ -43,6 +44,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    padding: 24px; /* Increased from 20px for better whitespace */
+    line-height: 1.6; /* Prevents the text from feeling like a 'wall' */
   }
 
 
