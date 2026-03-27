@@ -1,8 +1,70 @@
+---
+layout: default
+title: Notes on Hardware
+description: " "
+---
+
+
+---
+
+
 <style>
   .btn { display: none !important; }
+
+
+/* This sets the font for the entire page, not just headers */
+  body, p, li, div {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    line-height: 1.6;
+    color: #333;
+  }
+
+h1, h2, h3, h4 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+    color: #2e3539; /* A professional dark slate */
+  }
+
+body {
+    max-width: 800px; /* The 'Goldilocks' width for readability */
+    margin: 0 auto;   /* This centers the page on your screen */
+    padding: 40px 20px; 
+    background-color: #fff;
+  }
+
+
+.thought-box {
+    border: 2px solid #444; 
+    padding: 20px; 
+    border-radius: 12px; 
+    margin-bottom: 25px; 
+    background-color: #fafafa; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    /* The Brute Force Font Stack */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 24px; /* Increased from 20px for better whitespace */
+    line-height: 1.6; /* Prevents the text from feeling like a 'wall' */
+  }
+
+
+  .back-link {
+    text-align: left;
+    font-size: 0.9em;
+    margin-top: 20px;
+  }
+
+  .back-link a {
+    text-decoration: none;
+    color: #159957;
+    font-weight: bold;
+  }
 </style>
 
-<div style="border: 2px solid #444; padding: 20px; border-radius: 12px; margin-bottom: 25px; background-color: #fafafa; box-shadow: 2px 2px 5px rgba(0,0,0,0.05);" markdown="1">
+
+
+<div class="thought-box" id="get-weight-right-0001" markdown="1">
 
 ### Brightness control as a one-way transform
 
@@ -14,9 +76,19 @@ There are times a fully-blank screen is good -- it saves battery, it's unobtrusi
 
 Employ the phone's physical buttons, or add a button / toggle for this purpose. Or use a squeeze sensor to smoothly, temporarily raise the screen brightness. On Pixel phones (Pixel 6 and newer), Power + Volume Up by default activates the Power controls menu; if that would also force increased brightness and also give the user access to the brightness slider, the problem is solved. Those Power controls are pretty useless if you can't see the screen.
 
+<hr style="border: 0; border-top: 1px solid #eee;">
 
-<hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
-<p align="right"><a href="index.html" style="text-decoration: none; color: #159957; font-size: 0.9em;">← Return to main page</a></p>
+<div class="back-link">
+  <a href="index.html">← Return to main page</a>
+</div>
+
+</div>
+
+
+
+
+
+
 
 </div>
 
