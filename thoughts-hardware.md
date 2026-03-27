@@ -12,12 +12,25 @@ description: " "
   .btn { display: none !important; }
 
 
+/* This sets the font for the entire page, not just headers */
+  body, p, li, div {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    line-height: 1.6;
+    color: #333;
+  }
+
 h1, h2, h3, h4 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
     font-weight: bold;
     color: #2e3539; /* A professional dark slate */
   }
 
+body {
+    max-width: 800px; /* The 'Goldilocks' width for readability */
+    margin: 0 auto;   /* This centers the page on your screen */
+    padding: 40px 20px; 
+    background-color: #fff;
+  }
 
 .thought-box {
     border: 2px solid #444; 
