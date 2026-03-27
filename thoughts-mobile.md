@@ -68,13 +68,22 @@ body {
 
 ### Brightness control as a one-way transform
 
+<img src="Images/mobl-blank-screen-0001.jpg" 
+     style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; float: left; margin-right: 40px; margin-bottom: 20px;"
+     alt="A phone with completely blank screen, and a user's angry fist." 
+     title="A blank screen is an engine of frustration.">
+
 (<a href="https://x.com/timothylord/status/623568119877926912">Related tweet of 2015-07-21</a>)
 
-There are times a fully-blank screen is good -- it saves battery, it's unobtrusive in a dark place, it doesn't call attention to itself generally. But in a brightly lit area, even a screen that's merely dim can be hard to see at all. If it's locked, it's hard to enter a PIN. Even if it's not, it's annoying bordering on impossible, a real recursive imp of a problem. It's hard to see the brightness controls themselves in order to fix the problem. A glitch of this kind drove me batty a few months ago, and I had to blindly mash the position of the number keys until I got the PIN right.
+There are times a fully-blank screen is good -- it saves battery, it's unobtrusive in a dark place, it doesn't call attention to itself generally. But in a brightly lit area, even a screen that's merely dim can be hard to see at all. If it's locked, it's hard to enter a PIN. Even if it's not, it's annoying bordering on impossible, a real recursive imp of a problem. It's hard to see the brightness controls themselves in order to fix the problem.
+A glitch of this kind drove me batty a few months ago, and I had to blindly mash the position of the number keys until I got the PIN right.
 
 **The fix** 
 
-Employ the phone's physical buttons, or add a button / toggle for this purpose. Or use a squeeze sensor to smoothly, temporarily raise the screen brightness. On Pixel phones (Pixel 6 and newer), Power + Volume Up by default activates the Power controls menu; if that would also force increased brightness and also give the user access to the brightness slider, the problem is solved. Those Power controls are pretty useless if you can't see the screen.
+Employ the phone's physical buttons, or add a button / toggle for this purpose. Or use a squeeze sensor to smoothly, temporarily raise the screen brightness. On Pixel phones (Pixel 6 and newer), Power + Volume Up by default activates the Power controls menu; if that would also force increased brightness the problem is basically solved. Those Power controls are pretty useless if you can't see the screen.
+
+To fix the problem even more? Give access to the Brightness slider control on that same Power controls view; it seems to add a big benefit, with little evident security or usability downside.
+
 
 <hr style="border: 0; border-top: 1px solid #eee;">
 
