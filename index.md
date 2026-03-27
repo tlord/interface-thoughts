@@ -6,6 +6,14 @@ title: Interface Thoughts
 
 <style>
   .btn { display: none !important; }
+
+/* This kills the Serif 'Hodgepodge' */
+  h1, h2, h3, h4 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    font-weight: 700;
+    color: #2e3539; 
+    margin-top: 0;
+  }
   
   .thought-box {
     border: 2px solid #444; 
@@ -30,7 +38,7 @@ title: Interface Thoughts
 </style>
 
 
-You've stumbled onto a few of my notes about interfaces. Some of them go back decades, and some spring from my recent Twitter/X feed. Even when the particulars change, the lessons often still apply. Note: "Interface" here means any way you interact with systems or devices, whether that's a steering wheel, a written manual, or a voice-driven menu
+You've stumbled onto a few of my notes about interfaces. Some of them go back decades, and some spring from my recent Twitter/X feed. Even when the particulars change, the lessons often still apply. Note: "Interface" here means any way you interact with systems or devices, whether that's a steering wheel, a written manual, or a voice-driven menu.
 
 <center><img src="Images/header-image-das-keyboard.jpg" width="30%" alt="Das Keyboard: black keys, no labels." title="Black keys, no labels. Don't do this."></center>
 
