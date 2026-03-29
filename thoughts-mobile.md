@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Notes on Hardware
+title: Notes on mobile technology
 description: " "
 ---
 
@@ -68,7 +68,7 @@ body {
 
 ### Brightness control as a one-way transform
 
-<img src="Images/mobl-blank-screen-0001.jpg" 
+<img src="Images/mobl-blank-screen-0001.png" 
      style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; float: left; margin-right: 40px; margin-bottom: 20px;"
      alt="A phone with completely blank screen, and a user's angry fist." 
      title="A blank screen is an engine of frustration.">
