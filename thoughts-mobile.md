@@ -101,7 +101,19 @@ To fix the problem even more? Give access to the Brightness slider control on th
 
 </div>
 
+
+<div class="thought-box" id="get-weight-right-0001" markdown="1">
+
 ### Keep the swiping keyboard small
+
+<img src="Images/mobl-blank-screen-0001.png" 
+     style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; float: left; margin-right: 40px; margin-bottom: 20px;"
+     alt="An imnage of a on-screen swiping keyboard" 
+     title="More real estate sometimes just means a longer drive to the grocery store.">
+
+
+
+
 
 
 (<a href="https://x.com/timothylord/status/623917393861959680">Related tweet of 2015-06-22</a>)
@@ -116,6 +128,13 @@ So if a phone or tablet rotates and the keyboard expands to fit that larger spac
 Even if it's a large tablet, rather than a tiny phone, at least give the option of a finger-friendly, swiping keyboard, the same size as one on the phone
 
 ![Original Observation](URL-HERE) - search for "Swype / swyping keyboards should be small."
+
+
+<hr style="border: 0; border-top: 1px solid #eee;">
+
+<div class="back-link">
+  <a href="index.html">← Return to main page</a>
+</div>
 
 </div>
 
