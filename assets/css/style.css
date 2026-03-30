@@ -8,15 +8,6 @@
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
 
----
----
-@import "{{ site.theme }}";
-
-.skip-link {
-  display: none;
-}
-
-
 /* Hide the button class as requested */
 .rant-card .btn {
   display: none !important;
