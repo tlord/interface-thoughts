@@ -1,8 +1,8 @@
 <div class="thought-box">
   <h3>Uzi Tactical Pen</h3>
-  <img src="/Images/uzi-pen-2025-04-01.png" 
-       alt="Uzi tactical pen on a desk" 
-       title="The weight is perfect, but I'm still hunting for the right refill.">
+  <img src="/Images/ex-blog-entry.png" 
+       alt="Close-up of an old patent drawing for a roller-skate toe holder." 
+       title="It's important to clamp the right toes.">
 
   <p>Solid aircraft-grade aluminum. It's a bit aggressive for a board meeting, but it never skips.</p>
 
