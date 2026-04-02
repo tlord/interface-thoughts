@@ -106,9 +106,9 @@ To fix the problem even more? Give access to the Brightness slider control on th
 
 ### Keep the swiping keyboard small
 
-<img src="Images/mobl-blank-screen-0001.png" 
+<img src="Images/mobl-swipe-kybd-0001.png" 
      style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; float: left; margin-right: 40px; margin-bottom: 20px;"
-     alt="An imnage of a on-screen swiping keyboard" 
+     alt="An image of a on-screen swiping keyboard" 
      title="More real estate sometimes just means a longer drive to the grocery store.">
 
 
