@@ -91,7 +91,7 @@ img {
 /* Optional: Style the "Return to main page" link globally */
 .rant-card .back-link {
   display: block;
-  text-align: right;
+  text-align: left;
   text-decoration: none;
   color: #159957;
   font-size: 0.9em;
