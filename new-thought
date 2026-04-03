@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Get the absolute path to your project folder
+PROJ_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# 1. Collect the entry
+echo "--- New Interface Thought ---"
+echo "Target: [1] Mobile | [2] Misc | [0] Sandbox"
+read -p "Choice: " CHOICE
+read -p "Entry Title: " TITLE
+read -p "The Thought: " CONTENT
+
+# 2. Assign the Markdown file
+case $CHOICE in
+    1) MD_FILE="$PROJ_DIR/thoughts-mobile.md" ;;
+    2) MD_FILE="$PROJ_DIR/thoughts-misc.md" ;;
+    0) MD_FILE="$PROJ_DIR/sandbox.md" ;;
+    *) echo "Invalid choice. Exiting."; exit 1 ;;
+esac
+
+# 3. Create Sandbox with Front Matter if it doesn't exist
+if [ ! -f "$MD_FILE" ]; then
+    cat <<EOF > "$MD_FILE"
+---
+layout: default
+title: Sandbox Testing
+---
+
+# Sandbox
+This is a safe space for testing formatting and variables.
+
+EOF
+fi
+
+# 4. Append the new entry
+TIMESTAMP=$(date +"%Y-%m-%d")
+
+{
+  echo ""
+  echo "### $TITLE"
+  echo "**Date:** $TIMESTAMP"
+  echo ""
+  echo "$CONTENT"
+  echo ""
+  echo "---"
+} >> "$MD_FILE"
+
+echo "Done! Added to $(basename "$MD_FILE")."
