@@ -125,9 +125,8 @@ So if a phone or tablet rotates and the keyboard expands to fit that larger spac
 
 **The fix** 
 
-Even if it's a large tablet, rather than a tiny phone, at least give the option of a finger-friendly, swiping keyboard, the same size as one on the phone
+Even if it's a large tablet, rather than a tiny phone, at least give the option of a finger-friendly, swiping keyboard, the same size as one on the phone.
 
-![Original Observation](URL-HERE) - search for "Swype / swyping keyboards should be small."
 
 
 <hr style="border: 0; border-top: 1px solid #eee;">
