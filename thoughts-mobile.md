@@ -63,8 +63,7 @@ body {
 </style>
 
 
-
-<div class="thought-box" id="get-weight-right-0001" markdown="1">
+<div class="thought-box" id="brightness-control-0001" markdown="1">
 
 ### Brightness control as a one-way transform
 
@@ -102,7 +101,7 @@ To fix the problem even more? Give access to the Brightness slider control on th
 </div>
 
 
-<div class="thought-box" id="get-weight-right-0001" markdown="1">
+<div class="thought-box" id="swipe-kybd-small-0001" markdown="1">
 
 ### Keep the swiping keyboard small
 
