@@ -1,48 +1,157 @@
 #!/bin/bash
 
-# Get the absolute path to your project folder
-PROJ_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# ============================================================
+# SCRIPT: new-thought.sh
+# VERSION: 2026-04-04-0m
+# DESCRIPTION: CMS for Interface Thoughts. 
+# Added: Confirmation/Review step, improved top-alignment.
+#
+# HOW TO ADD A NEW TOPIC:
+# 1. Update the "Select Destination" menu (Section 2) with a new number.
+# 2. Add the corresponding filename to the "case" statement below it.
+# 3. The script handles the rest (file creation, headers, etc.).
+# ============================================================
 
-# 1. Collect the entry
-echo "--- New Interface Thought ---"
-echo "Target: [1] Mobile | [2] Misc | [0] Sandbox"
-read -p "Choice: " CHOICE
-read -p "Entry Title: " TITLE
-read -p "The Thought: " CONTENT
+# 1. Setup Paths
+PROJECT_ROOT="$HOME/artifacts/legible/interface-thoughts-project/interface-thoughts"
+CSS_PATH="assets/css/style.css"
+TEMP_BODY="/tmp/thought_body.md"
 
-# 2. Assign the Markdown file
-case $CHOICE in
-    1) MD_FILE="$PROJ_DIR/thoughts-mobile.md" ;;
-    2) MD_FILE="$PROJ_DIR/thoughts-misc.md" ;;
-    0) MD_FILE="$PROJ_DIR/sandbox.md" ;;
-    *) echo "Invalid choice. Exiting."; exit 1 ;;
+# Ensure the root directory exists
+mkdir -p "$PROJECT_ROOT"
+
+# 2. Select Destination
+echo -e "\nWhere does this thought belong?"
+echo "01) Sandbox"
+echo "02) Hardware"
+echo "03) Kindness"
+echo "04) Apple"
+# To add a topic: Add "05) NewTopic" here...
+echo -ne "\nSelect number [Default 01]: "
+read -r Choice
+
+case "$Choice" in
+    02) FILE_NAME="hardware.md" ;;
+    03) FILE_NAME="kindness.md" ;;
+    04) FILE_NAME="apple.md" ;;
+    # ...and add "05) FILE_NAME="newtopic.md" ;; here.
+    *)  FILE_NAME="sandbox.md" ;;
 esac
 
-# 3. Create Sandbox with Front Matter if it doesn't exist
-if [ ! -f "$MD_FILE" ]; then
-    cat <<EOF > "$MD_FILE"
+TARGET_FILE="$PROJECT_ROOT/$FILE_NAME"
+PREVIEW_FILE="$PROJECT_ROOT/${FILE_NAME%.md}-preview.html"
+
+# INITIALIZE FILE IF MISSING OR EMPTY
+if [ ! -s "$TARGET_FILE" ]; then
+    echo "Initializing new file: $FILE_NAME"
+    cat <<EOF > "$TARGET_FILE"
 ---
-layout: default
-title: Sandbox Testing
+title: ${FILE_NAME%.md^}
+date: $(date +%Y-%m-%d)
 ---
 
-# Sandbox
-This is a safe space for testing formatting and variables.
+# ${FILE_NAME%.md^} Thoughts
 
 EOF
 fi
 
-# 4. Append the new entry
-TIMESTAMP=$(date +"%Y-%m-%d")
+# 3. Inputs
+echo -e "\n--- General Info ---"
+echo -ne "Title: "
+read -r THOUGHT_TITLE
 
-{
-  echo ""
-  echo "### $TITLE"
-  echo "**Date:** $TIMESTAMP"
-  echo ""
-  echo "$CONTENT"
-  echo ""
-  echo "---"
-} >> "$MD_FILE"
+echo -e "\n--- Image Info (Leave blank for none) ---"
+echo -ne "Image filename: "
+read -r IMG_NAME
 
-echo "Done! Added to $(basename "$MD_FILE")."
+IMG_HTML=""
+if [ -n "$IMG_NAME" ]; then
+    echo -ne "Alt-text (Invisible, for accessibility): "
+    read -r IMG_ALT
+    echo -ne "Mouseover text (The tooltip): "
+    read -r IMG_TITLE
+    echo -ne "Visible Caption (Optional): "
+    read -r IMG_CAP
+    
+    IMG_HTML="<div class=\"img-container\"><img src=\"images/$IMG_NAME\" alt=\"$IMG_ALT\" title=\"$IMG_TITLE\" class=\"thought-img\">"
+    if [ -n "$IMG_CAP" ]; then
+        IMG_HTML="$IMG_HTML<span class=\"thought-caption\">$IMG_CAP</span>"
+    fi
+    IMG_HTML="$IMG_HTML</div>"
+fi
+
+# 4. Compose Body
+echo -e "\n--- Composition ---"
+echo "Opening Micro... (Ctrl+S to save, and Ctrl+Q to quit)"
+sleep 1
+> "$TEMP_BODY"
+micro "$TEMP_BODY"
+THOUGHT_BODY=$(cat "$TEMP_BODY")
+
+# 5. NEW: Review Step
+echo -e "\n========================================"
+echo -e "          REVIEW YOUR THOUGHT           "
+echo -e "========================================"
+echo -e "DESTINATION: $FILE_NAME"
+echo -e "TITLE:       $THOUGHT_TITLE"
+if [ -n "$IMG_NAME" ]; then
+    echo -e "IMAGE:       $IMG_NAME"
+    echo -e "ALT:         $IMG_ALT"
+    echo -e "TOOLTIP:     $IMG_TITLE"
+    echo -e "CAPTION:     $IMG_CAP"
+fi
+echo -e "----------------------------------------"
+echo -e "BODY PREVIEW:"
+echo "$THOUGHT_BODY" | head -n 3
+echo "[...]"
+echo -e "========================================"
+echo -ne "Proceed with injection? (y/n): "
+read -r Confirm
+
+if [[ ! "$Confirm" =~ ^[Yy]$ ]]; then
+    echo "Aborted. No changes made."
+    exit 0
+fi
+
+# 6. Format Entry
+NEW_ENTRY="
+::: thought-box
+
+### $THOUGHT_TITLE
+
+$IMG_HTML $THOUGHT_BODY
+
+<div class=\"back-link-wrapper\">
+[← Back to Index](index.html){.back-link}
+</div>
+
+:::
+"
+
+# 7. Inject
+if [ "$(grep -c "^---$" "$TARGET_FILE")" -ge 2 ]; then
+    awk -v entry="$NEW_ENTRY" '
+        BEGIN { sep_count = 0; inserted = 0 }
+        /^---$/ { sep_count++ }
+        { print }
+        sep_count == 2 && inserted == 0 {
+            print entry
+            inserted = 1
+        }
+    ' "$TARGET_FILE" > "$TARGET_FILE.tmp" && mv "$TARGET_FILE.tmp" "$TARGET_FILE"
+else
+    echo -e "\n$NEW_ENTRY" >> "$TARGET_FILE"
+fi
+
+# 8. Generate Preview
+echo -e "\n--- Generating Preview ---"
+cd "$PROJECT_ROOT" || exit
+pandoc "$FILE_NAME" \
+    --from markdown+raw_html \
+    -o "$PREVIEW_FILE" \
+    --standalone \
+    --css="$CSS_PATH" \
+    --metadata title="${FILE_NAME%.md^} Preview"
+
+echo -e "\nDone! Entry added to $FILE_NAME."
+echo "Preview updated at: $PREVIEW_FILE"

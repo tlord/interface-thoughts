@@ -1,0 +1,109 @@
+#!/bin/bash
+
+# ============================================================
+# SCRIPT: new-thought.sh
+# VERSION: 2026-04-04-0j
+# DESCRIPTION: CMS for Interface Thoughts. 
+# Fixed "Markdown Soup" bug where tags appeared as text.
+# Simplified HTML injection for better Pandoc compatibility.
+# ============================================================
+
+# 1. Setup Paths
+PROJECT_ROOT="$HOME/artifacts/legible/interface-thoughts-project/interface-thoughts"
+CSS_PATH="assets/css/style.css"
+TEMP_BODY="/tmp/thought_body.md"
+
+# 2. Select Destination
+echo -e "\nWhere does this thought belong?"
+echo "01) Sandbox"
+echo "02) Hardware"
+echo "03) Kindness"
+echo "04) Apple"
+echo -ne "\nSelect number [Default 01]: "
+read -r Choice
+
+case "$Choice" in
+    02) FILE_NAME="hardware.md" ;;
+    03) FILE_NAME="kindness.md" ;;
+    04) FILE_NAME="apple.md" ;;
+    *)  FILE_NAME="sandbox.md" ;;
+esac
+
+TARGET_FILE="$PROJECT_ROOT/$FILE_NAME"
+PREVIEW_FILE="$PROJECT_ROOT/${FILE_NAME%.md}-preview.html"
+
+# 3. Inputs
+echo -e "\n--- General Info ---"
+echo -ne "Title: "
+read -r THOUGHT_TITLE
+
+echo -e "\n--- Image Info (Leave blank for none) ---"
+echo -ne "Image filename (e.g., ex.png): "
+read -r IMG_NAME
+
+IMG_HTML=""
+if [ -n "$IMG_NAME" ]; then
+    echo -ne "Alt-text (Invisible, for accessibility): "
+    read -r IMG_ALT
+    echo -ne "Mouseover text (The tooltip): "
+    read -r IMG_TITLE
+    echo -ne "Visible Caption (Optional, appears below image): "
+    read -r IMG_CAP
+    
+    # We use standard HTML tags. Pandoc will recognize these as "Raw HTML" 
+    # automatically when we use the --from markdown+raw_html flag.
+    IMG_HTML="<div class=\"img-container\"><img src=\"images/$IMG_NAME\" alt=\"$IMG_ALT\" title=\"$IMG_TITLE\" class=\"thought-img\">"
+    if [ -n "$IMG_CAP" ]; then
+        IMG_HTML="$IMG_HTML<span class=\"thought-caption\">$IMG_CAP</span>"
+    fi
+    IMG_HTML="$IMG_HTML</div>"
+fi
+
+# 4. Compose Body in Micro
+echo -e "\n--- Composition ---"
+echo "Opening Micro... (Ctrl+S to save, and Ctrl+Q to quit)"
+sleep 1
+> "$TEMP_BODY"
+micro "$TEMP_BODY"
+THOUGHT_BODY=$(cat "$TEMP_BODY")
+
+# 5. Format the Entry
+# We add a <div style="clear: both;"></div> at the very end of the box
+# to force the container to "wrap" around the image properly before the box ends.
+NEW_ENTRY="
+::: thought-box
+
+### $THOUGHT_TITLE
+
+$IMG_HTML $THOUGHT_BODY
+
+<div style=\"clear: both;\"></div>
+
+[← Back to Index](index.html){.back-link}
+
+:::
+"
+
+# 6. Inject after Front Matter
+awk -v entry="$NEW_ENTRY" '
+    BEGIN { sep_count = 0; inserted = 0 }
+    /^---$/ { sep_count++ }
+    { print }
+    sep_count == 2 && inserted == 0 {
+        print entry
+        inserted = 1
+    }
+' "$TARGET_FILE" > "$TARGET_FILE.tmp" && mv "$TARGET_FILE.tmp" "$TARGET_FILE"
+
+# 7. Pandoc Preview
+echo -e "\n--- Generating Preview ---"
+cd "$PROJECT_ROOT" || exit
+
+pandoc "$FILE_NAME" \
+    --from markdown+raw_html \
+    -o "$PREVIEW_FILE" \
+    --standalone \
+    --css="$CSS_PATH" \
+    --metadata title="${FILE_NAME%.md} Preview"
+
+echo -e "\nDone! Preview updated at: $PREVIEW_FILE"

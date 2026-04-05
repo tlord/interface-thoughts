@@ -1,4 +1,12 @@
-/* --- Main Layout & Typography --- */
+/* ============================================================
+   INTERFACE THOUGHTS - STYLESHEET
+   VERSION: 1.8
+   DESCRIPTION: Cleaned, consolidated layout with top-alignment 
+   fixes and tightened navigation spacing.
+   ============================================================ */
+
+/* --- 1. GLOBAL BASE STYLES --- */
+
 body {
   max-width: 850px;
   margin: 0 auto;
@@ -13,93 +21,115 @@ h1, h2, h3, h4 {
   margin-top: 1.5rem;
 }
 
-/* --- Simplified Image Handling --- */
+/* Base image behavior (non-floated) */
 img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 1.5rem 0;
   border-radius: 4px;
 }
 
-/* === For images which for some reason I don't want rounded corners --- */
-.no-radius {
-  border-radius: 0 !important;
-}
+/* --- 2. THE THOUGHT BOX CONTAINER --- */
 
-
-
-/* Desktop Image Constraint */
-@media (min-width: 768px) {
-  img {
-    max-width: 400px;
-  }
-}
-
-/* --- The Thought Box (Topic Entries) --- */
 .thought-box {
-  border: 1px solid #e1e4e8;
-  border-radius: 6px;
-  background-color: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-  padding: 1.25rem;
-  margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    overflow: hidden; /* Clears floats internally */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Desktop Spacing for Thought Box */
-@media (min-width: 768px) {
-  .thought-box {
-    padding: 2rem;
-    margin-bottom: 3.5rem;
-  }
+/* Modern Clearfix to ensure the box always contains the floated image */
+.thought-box::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-/* Clean up headings inside the box */
-.thought-box h3:first-child, 
-.thought-box h2:first-child {
-  margin-top: 0;
-  margin-bottom: 1rem;
+.thought-box h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.6em;
+    line-height: 1.2;
+    color: #222;
 }
 
-/* Ultra-Mobile Optimization */
-@media (max-width: 480px) {
-  .thought-box {
-    border-left: none;
-    border-right: none;
-    border-radius: 0;
-    margin-left: -1rem;
-    margin-right: -1rem;
-  }
+.thought-box p {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 0.8rem;
 }
 
-
-/* Style for your micro-rant cards */
-.rant-card {
-  border: 2px solid #444;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 25px;
-  background-color: #fafafa;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+/* TOP ALIGNMENT FIX: 
+   Removes the margin from the first paragraph so it aligns 
+   perfectly with the top edge of the floated image. */
+.thought-box p:first-of-type {
+    margin-top: 0;
 }
 
-/* Hide the button class as requested */
-.rant-card .btn {
-  display: none !important;
+/* --- 3. FLOATING IMAGE LOGIC --- */
+
+.img-container {
+    float: left;
+    width: 320px; 
+    max-width: 50%;
+    margin: 0 24px 8px 0; 
 }
 
-/* Optional: Style the "Return to main page" link globally */
-.rant-card .back-link {
-  display: block;
-  text-align: left;
-  text-decoration: none;
-  color: #159957;
-  font-size: 0.9em;
-  margin-top: 20px;
-  border-top: 1px solid #eee;
-  padding-top: 20px;
+.thought-img {
+    width: 100% !important;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin: 0 !important;
 }
 
-#skip-to-content {
-  display: none !important;
+.thought-caption {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.85em;
+    font-style: italic;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* --- 4. NAVIGATION (TIGHTENED) --- */
+
+.back-link-wrapper {
+    clear: both;
+    margin-top: 10px; /* Precise control over the gap below the content */
+    padding-top: 5px;
+}
+
+.back-link {
+    display: inline-block;
+    font-size: 0.85em;
+    text-decoration: none;
+    color: #0076df;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* --- 5. MOBILE RESPONSIVENESS --- */
+
+@media (max-width: 600px) {
+    .img-container {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 15px 0;
+    }
+    
+    body {
+        padding: 1rem;
+    }
+
+    .thought-box {
+        padding: 18px;
+    }
 }
